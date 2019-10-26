@@ -36,15 +36,15 @@ c     ----------------------
       read(10,*)
       do i=1,j
          read(10,*)a(1,i),a(2,i)
-         a(1,i)=a(1,i)*1000.
-         a(2,i)=a(2,i)*1000.
+         a(1,i)=a(1,i)
+         a(2,i)=a(2,i)
          write(*,100)a(1,i),a(2,i)
       enddo
 
 100   format(2e16.9)
 
       close(10)
-      open(11,file="input.out")
+      open(11,file="output.out")
       write(11,'(A)')"25       0       0       1       0       0       0&
      &       0       0"
        write(11,'(A)')"P3/PATRAN --------------------"
