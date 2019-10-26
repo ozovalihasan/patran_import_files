@@ -1,4 +1,4 @@
-# patran_import_files
+# patran_import_points
 This program is written to import points to Patran as neutral file,
 i.e. output of this program needed to be imported as neutral file by using Patran.
 Program is written by using Fortran.
